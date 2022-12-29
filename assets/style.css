@@ -9,13 +9,24 @@ footer {
     height: 120px;
     background-color: #B233FF;
     color: white;
+    /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+body{
+    background-color: #3F3F3F;
 }
 
 h1,
 h2 {
     text-align: center;
+    color: white;
+    /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
+main{
+    background-color: #3F3F3F;
+}
 img {
     display: block;
     height: 50px;
@@ -27,6 +38,10 @@ img {
 ul {
     padding-left: 40px;
     font-size: 20px;
+    background-color: #3F3F3F;
+    color: white;
+    /* 1 pixel black shadow to left, top, right and bottom */
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 p {
@@ -38,5 +53,5 @@ p {
     width: 80%;
     margin: 40px auto;
     border: 5px solid gray;
-    box-shadow: 5px 10px #888888;
+    box-shadow: 5px 10px #616161;
 }
